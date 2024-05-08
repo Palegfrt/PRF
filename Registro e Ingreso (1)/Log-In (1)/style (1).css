@@ -9,7 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #1a1a1a;
-  background-image: url(../Multimedia/carretera_3840x2160_xtrafondos.com.jpg);
+  background-image: url(../Multimedia/carretera_3840x2160_xtrafondos.com.jpg );
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
