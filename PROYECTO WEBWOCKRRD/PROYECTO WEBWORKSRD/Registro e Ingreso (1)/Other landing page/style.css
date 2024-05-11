@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* letra para la pagina*/
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan; /* Fondo de color darkcyan */
+    font-family: Arial, sans-serif;
+  }
+  
+  #menu-flotante {
+    
+    align-items: end;
+    height: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    z-index: 999;
+  }
+  
+  #menu-flotante ul {
+    text-align: right;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+  }
+  
+  #menu-flotante li {
+    margin-right: 20px;
+  }
+  
+  #menu-flotante a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  #menu-flotante a:hover {
+    background-color: #555;
+  }
+  
+  #contenido {
+    margin-top: 60px; /* Espacio para el menú flotante */
+    padding: 20px;
+    color: #fff; /* Texto de color blanco */
+  }
