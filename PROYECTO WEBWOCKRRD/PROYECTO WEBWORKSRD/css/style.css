@@ -1,0 +1,190 @@
+body {
+    background-color:rgba(24, 24, 24, 0.8);
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header,footer {
+   background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-shadow: #333 3px;
+
+}
+
+
+.nav {
+    position: sticky;
+}
+  
+  main {
+    padding: 20px;
+  }
+  
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+ 
+
+  .producto {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .btn-reservar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-reservar:hover {
+    background-color: #0056b3;
+  }
+  
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.section-padding {
+    padding: 70px 0;
+}
+
+.carousel-item {
+    height: 80vh;
+}
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 45;
+    text-transform: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 30, 82, 0.327);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focu, .navbar-light .navbar-brand:hover {
+    color: #000;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.services .card-body i {
+    font-size: 50px;
+}
+
+.team .card-body i {
+    font-size: 20px;
+}
+.card-body
+{
+    min-height: 290px;
+}
+
+@media(max-width: 767px ) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .carousel-item {
+        height: 70vh;
+    }
+    .w-100 {
+        height: 70vh;
+    }
+    .carousel-caption {
+        bottom: 125px;
+    }
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+    .about-text {
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+}
+.limit
+{
+    position: absolute;
+    width: 60%;
+    max-width:80%;
+    margin-left: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ss3
+{
+    margin-top: 10px;
+    background-color: #747575bb;
+padding: 10px;
+border-radius: 10px;
+
+}
