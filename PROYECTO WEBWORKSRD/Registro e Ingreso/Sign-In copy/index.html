@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Drift Tropical</h1>
+    <form  action="conn.php" method="post">
+      <input type="text" placeholder="Nombre" name="Nombre"/>
+      <input type="email" placeholder="Email" name="Email"/>
+      <input type="password" id="password" placeholder="Contraseña" name="Contraseña"/>
+      <input type="password" placeholder="Confirmar Contraseña" id="confirmPassword"/>
+      <div id="warningMessage" style="color: red; font-weight: bold;"></div>
+      <button type="submit" id="myButton">Registrarse</button>
+    </form>
+    <p>¿Ya tienes una cuenta? <a href="../Log-In/ingreso.html">Inicia sesión</a></p>
+  </div>
+
+  <script src="funtion.js"></script>
+ 
+</body>
+</html>
